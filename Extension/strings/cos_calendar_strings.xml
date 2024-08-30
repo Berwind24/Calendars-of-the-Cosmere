@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+    <windowclass name="calendar_main_date" merge="join">
+        <sheetdata>
+            <basicstring name="currentepoch" source="current.epoch">
+                <anchored to="currentyear" position="righthigh" offset="10,0" width="100" height="20" />
+                <font>calendarbold</font>
+                <center />
+            </basicstring>
+        </sheetdata>
+        <script file="scripts/main_cosmere.lua" />
+        <onInit>
+            mainCosmere.detectActiveCalendarAndUpdateDisplay()
+        </onInit>
+    </windowclass>
+</root>

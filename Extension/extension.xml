@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="1.0">
+    <properties>
+        <name>Calendars of the Cosmere ext</name>
+        <version>1.0</version>
+        <loadorder>10</loadorder>
+        <description>
+            <text>Cosmere Calendars for Fantasy Grounds</text>
+            <author>Berwind</author>
+        </description>
+    </properties>
+
+    <announcement text="Cosmere Calendars loaded!" icon="highstorm_icon" font="chatfont"/>
+
+    <base>
+        <!-- Windows -->
+        <includefile source="utility/calendar_adjust.xml"/>
+
+        <!-- Graphics -->
+        <icon name="highstorm_icon" file="graphics/logos/highstorm_icon.png" />
+        <includefile source="graphics/graphics_fonts.xml" />
+
+        <!-- Main script -->
+        <script name="mainCosmere" file="scripts/main_cosmere.lua"/>
+
+        <!-- Calendars -->
+        <script name="rosharCal" file="scripts/roshar_calendar.lua"/>
+
+        <!-- Strings -->
+        <includefile source="strings/cos_calendar_strings.xml" />
+    </base>
+</root>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root version="3.0">
+    <calendar>
+        <base static="true">
+          <rosharan>
+                <name type="string">Rosharan Calendar</name>
+                <dateformat type="string">rosharan</dateformat> <!-- Critical -->
+                <lunardaycalc type="string">Rosharan</lunardaycalc> <!-- References calcRosharanLunarDay -->
+                <periodvarcalc type="string">Rosharan</periodvarcalc>
+                <lunarweek>
+                    <day1 type="string">Jes</day1>
+                    <day2 type="string">Nan</day2>
+                    <day3 type="string">Chach</day3>
+                    <day4 type="string">Vev</day4>
+                    <day5 type="string">Palah</day5>
+                </lunarweek>
+                <periodvarcalc type="string">Rosharan</periodvarcalc>
+                <periods>
+                    <!-- Month 1: Jes -->
+                    <period1>
+                        <days type="number">50</days>
+                        <name type="string">Jes</name>
+                        <weeks>
+                            <week1>Jeses</week1>
+                            <week2>Jesnan</week2>
+                            <week3>Jesach</week3>
+                            <week4>Jesev</week4>
+                            <week5>Jesah</week5>
+                            <week6>Jesash</week6>
+                            <week7>Jesab</week7>
+                            <week8>Jesak</week8>
+                            <week9>Jesat</week9>
+                            <week10>Jesish</week10>
+                        </weeks>
+                    </period1>
+                    <!-- Month 2: Nan -->
+                    <period2>
+                        <days type="number">50</days>
+                        <name type="string">Nan</name>
+                        <weeks>
+                            <week1>Nanes</week1>
+                            <week2>Nanan</week2>
+                            <week3>Nanach</week3>
+                            <week4>Nanev</week4>
+                            <week5>Nanah</week5>
+                            <week6>Nanash</week6>
+                            <week7>Nanab</week7>
+                            <week8>Nanak</week8>
+                            <week9>Nanat</week9>
+                            <week10>Nanish</week10>
+                        </weeks>
+                    </period2>
+                    <!-- Month 3: Chach -->
+                    <period3>
+                        <days type="number">50</days>
+                        <name type="string">Chach</name>
+                        <weeks>
+                            <week1>Chaches</week1>
+                            <week2>Chachan</week2>
+                            <week3>Chachach</week3>
+                            <week4>Chachev</week4>
+                            <week5>Chachah</week5>
+                            <week6>Chachash</week6>
+                            <week7>Chachab</week7>
+                            <week8>Chachak</week8>
+                            <week9>Chachat</week9>
+                            <week10>Chachish</week10>
+                        </weeks>
+                    </period3>
+                    <!-- Month 4: Vev -->
+                    <period4>
+                        <days type="number">50</days>
+                        <name type="string">Vev</name>
+                        <weeks>
+                            <week1>Veves</week1>
+                            <week2>Vevan</week2>
+                            <week3>Vevach</week3>
+                            <week4>Vevev</week4>
+                            <week5>Vevah</week5>
+                            <week6>Vevash</week6>
+                            <week7>Vevab</week7>
+                            <week8>Vevak</week8>
+                            <week9>Vevat</week9>
+                            <week10>Vevish</week10>
+                        </weeks>
+                    </period4>
+					<period5>
+                        <days type="number">50</days>
+                        <name type="string">Palah</name>
+                        <weeks>
+                            <week1>Palahes</week1>
+                            <week2>Palahan</week2>
+                            <week3>Palahach</week3>
+                            <week4>Palahev</week4>
+                            <week5>Palahah</week5>
+                            <week6>Palahash</week6>
+                            <week7>Palahab</week7>
+                            <week8>Palahak</week8>
+                            <week9>Palahat</week9>
+                            <week10>Palahish</week10>
+                        </weeks>
+						<holidays>
+							<holiday1>
+								<duration type="number">20</duration>
+								<name type="string">Midpeace</name>
+								<startday type="number">31</startday>
+							</holiday1>
+						</holidays>
+					</period5>
+					<period6>
+                        <days type="number">50</days>
+                        <name type="string">Shash</name>
+                        <weeks>
+                            <week1>Shashes</week1>
+                            <week2>Shashan</week2>
+                            <week3>Shashach</week3>
+                            <week4>Shashev</week4>
+                            <week5>Shashah</week5>
+                            <week6>Shashash</week6>
+                            <week7>Shashab</week7>
+                            <week8>Shashak</week8>
+                            <week9>Shashat</week9>
+                            <week10>Shashish</week10>
+                        </weeks>
+					</period6>
+					<period7>
+                        <days type="number">50</days>
+                        <name type="string">Betab</name>
+                        <weeks>
+                            <week1>Betabes</week1>
+                            <week2>Betaban</week2>
+                            <week3>Betabach</week3>
+                            <week4>Betabev</week4>
+                            <week5>Betabah</week5>
+                            <week6>Betabash</week6>
+                            <week7>Betabab</week7>
+                            <week8>Betabak</week8>
+                            <week9>Betabat</week9>
+                            <week10>Betabish</week10>
+                        </weeks>
+					</period7>
+					<period8>
+                        <days type="number">50</days>
+                        <name type="string">Kak</name>
+                        <weeks>
+                            <week1>Kakes</week1>
+                            <week2>Kakan</week2>
+                            <week3>Kakach</week3>
+                            <week4>Kakev</week4>
+                            <week5>Kakah</week5>
+                            <week6>Kakash</week6>
+                            <week7>Kakab</week7>
+                            <week8>Kakak</week8>
+                            <week9>Kakat</week9>
+                            <week10>Kakish</week10>
+                        </weeks>
+					</period8>
+					<period9>
+                        <days type="number">50</days>
+                        <name type="string">Tanat</name>
+                        <weeks>
+                            <week1>Tanates</week1>
+                            <week2>Tanatan</week2>
+                            <week3>Tanatach</week3>
+                            <week4>Tanatev</week4>
+                            <week5>Tanatah</week5>
+                            <week6>Tanatash</week6>
+                            <week7>Tanatab</week7>
+                            <week8>Tanatak</week8>
+                            <week9>Tanatat</week9>
+                            <week10>Tanatish</week10>
+                        </weeks>
+					</period9>
+					<period10>
+                        <days type="number">50</days>
+                        <name type="string">Ishi</name>
+                        <weeks>
+                            <week1>Ishies</week1>
+                            <week2>Ishian</week2>
+                            <week3>Ishiach</week3>
+                            <week4>Ishiev</week4>
+                            <week5>Ishiah</week5>
+                            <week6>Ishiash</week6>
+                            <week7>Ishiab</week7>
+                            <week8>Ishiak</week8>
+                            <week9>Ishiat</week9>
+                            <week10>Ishiish</week10>
+                        </weeks>
+						<holidays>
+							<holiday1>
+								<duration type="number">20</duration>
+								<name type="string">The Weeping</name>
+								<startday type="number">31</startday>
+							</holiday1>
+							<holiday2>
+								<duration type="number">1</duration>
+								<name type="string">Lightday</name>
+								<startday type="number">41</startday>
+							</holiday2>
+						</holidays>
+					</period10>
+                </periods>
+            </rosharan>
+        </base>
+    </calendar>
+        <calendar>
+        <base static="true">
+          <scadrian>
+                <name type="string">Scadrian Calendar</name>
+                <dateformat type="string">scadrian</dateformat> 
+                <lunardaycalc type="string">Scadrian</lunardaycalc>
+                <periodvarcalc type="string">Scadrian</periodvarcalc>
+                <lunarweek>
+                    <day1 type="string">Steelday</day1>
+                    <day2 type="string">Zincday</day2>
+                    <day3 type="string">Pewterday</day3>
+                    <day4 type="string">Copperday</day4>
+                    <day5 type="string">Bronzday</day5>
+                    <day6 type="string">Tinnday</day6>
+                    <day7 type="string">Brassday</day7>
+                    <day8 type="string">Ironday</day8>
+                </lunarweek>
+                <periodvarcalc type="string">Scadrian</periodvarcalc>
+                <periods>
+                    <period1>
+                        <days type="number">32</days>
+                        <name type="string">Kelsend</name>
+                        <holidays>
+							<holiday1>
+								<duration type="number">1</duration>
+								<name type="string">Survivor's Day</name>
+								<startday type="number">1</startday>
+							</holiday1>
+                            <holiday2>
+								<duration type="number">1</duration>
+								<name type="string">Harmontide</name>
+								<startday type="number">1</startday>
+							</holiday2>
+						</holidays>
+                    </period1>
+                    <period2>
+                        <days type="number">32</days>
+                        <name type="string">Marewill</name>
+                    </period2>
+                    <period3>
+                        <days type="number">32</days>
+                        <name type="string">Doxil</name>
+                    </period3>
+                    <period4>
+                        <days type="number">32</days>
+                        <name type="string">Vinulian</name>
+                    </period4>
+					<period5>
+                        <days type="number">32</days>
+                        <name type="string">Hammondar</name>
+					</period5>
+					<period6>
+                        <days type="number">32</days>
+                        <name type="string">Breesol</name>
+					</period6>
+					<period7>
+                        <days type="number">32</days>
+                        <name type="string">Spooktide</name>
+					</period7>
+					<period8>
+                        <days type="number">32</days>
+                        <name type="string">Cladence</name>
+					</period8>
+					<period9>
+                        <days type="number">32</days>
+                        <name type="string">Marshorn</name>
+					</period9>
+					<period10>
+                        <days type="number">32</days>
+                        <name type="string">Elentide</name>
+					</period10>
+					<period11>
+                        <days type="number">32</days>
+                        <name type="string">Oreseunis</name>
+					</period11>
+					<period12>
+                        <days type="number">32</days>
+                        <name type="string">Yedentis</name>
+					</period12>
+                </periods>
+            </scadrian>
+        </base>
+    </calendar>
+</root>
