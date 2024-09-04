@@ -7,11 +7,10 @@
                 <font>calendarbold</font>
                 <center />
             </basicstring>
-
 			<label name="currenthour" merge="join">
 				<anchored width="20">
 					<top offset="15" />
-					<left anchor="right" offset="-120" />
+					<left offset="71%" />
 				</anchored>
 			</label>
         </sheetdata>
